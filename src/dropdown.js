@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const mainDiv = document.querySelector(".div-main");
 const secondaryDiv = document.querySelector(".div-secondary");
 

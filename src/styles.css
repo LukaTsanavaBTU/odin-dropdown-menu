@@ -1,0 +1,46 @@
+button {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.2rem;
+    text-align: center;
+    width: 200px;
+    border: 0;
+    padding: 5px;
+}
+
+.button-secondary:hover {
+    background-color: #393E46;
+}
+
+.button-secondary:active {
+    background-color: #222831
+}
+
+.button-main::after {
+    content: "▼";
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.div-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.div-main {
+    display: inline-block;
+}
+
+.div-main>button {
+    border-radius: 10px 10px 0 0;
+}
+
+.div-secondary :last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.collapsed {
+    display: none;
+}
